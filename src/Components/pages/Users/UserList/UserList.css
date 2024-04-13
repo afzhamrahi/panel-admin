@@ -1,0 +1,39 @@
+.userList {
+    flex: 4;
+}
+
+.userListUser {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.userListImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.Link{
+    text-decoration: none;
+}
+.userListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #3bb077;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.userListDelet{
+    color: red;
+    align-items: center;
+    cursor: pointer;
+    /* margin-top: 10px; */
+
+}
+.MuiDataGrid-cell{
+    display: flex;
+    align-items: center;
+}
